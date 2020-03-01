@@ -5,296 +5,402 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Restaurant Website</title>
-    <!-- Bootstrape CSS-->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Google Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Mr+Dafoe" rel="stylesheet">
-    <link rel="stylesheet" href="css/swiper.min.css">
-    <!-- FontAwesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <!-- Main stylesheet-->
-    <link rel="stylesheet" href="css/stylesheet.css">
-
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Domine|Lato|Vollkorn&display=swap"
+        rel="stylesheet">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/5e26c06771.js" crossorigin="anonymous"></script>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="navbar navbar-expand-md">
-        <a href="#home" class="navbar-brand">QuickFood</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
-            <div class="toggler-btn">
-                <div class="bar bar1"></div>
-                <div class="bar bar2"></div>
-                <div class="bar bar3"></div>
-            </div>
-        </button>
 
-        <div class="collapse navbar-collapse" id="myNavbar">
+    <!-- navigation section -->
+    <nav class="navbar fixed-top navbar-expand-md">
+        <a class="navbar-brand" href="#">B&C</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+            aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="bar bar1"></div>
+            <div class="bar bar1"></div>
+            <div class="bar bar1"></div>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggler">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#home">Home</a>
+                    <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#menu"><i class="fas fa-hamburger"></i> Menu</a>
+                    <a class="nav-link" href="#menu">Menu</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#offers"><i class="fas fa-glass-cheers"></i> Offers</a>
+                    <a class="nav-link" href="#gallery">Gallery</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact"><i class="fas fa-phone"></i> +91(9876543210)</a>
+                    <a class="nav-link" href="#journal">Journal</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
+    </nav>
+
+    <!-- header section -->
+    <div class="header" id="home">
+        <img src="images/LogoMakr_0QRaBq.png" alt="" class="logo2 img-fluid">
     </div>
 
-    <div class="header">
-        <!-- carousal qoutes -->
-        <div id="carousalSlider" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carousalSlider" data-slide-to="0" class="active"></li>
-                <li data-target="#carousalSlider" data-slide-to="1"></li>
-                <li data-target="#carousalSlider" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="bread-color-copyspace-1565982.jpg" alt="">
-                </div>
-                <div class="carousel-item">
-                    <img src="bread-color-copyspace-1565982.jpg" alt="">
-                </div>
-                <div class="carousel-item">
-                    <img src="bread-color-copyspace-1565982.jpg" alt="">
-                </div>
-            </div>
-
-        </div>
-    </div>
-
-    <div class="container-fluid section1">
-        <div class="row">
-            <div class="col-6 col-md-4">
-                <img src="appetizer-dark-delicious-326279.jpg" alt="">
-            </div>
-            <div class="col-6 col-md-4">
-                <img src="appetizer-dark-delicious-326279.jpg" alt="">
-            </div>
-            <div class="col-6 col-md-4">
-                <img src="appetizer-dark-delicious-326279.jpg" alt="">
-            </div>
-        </div>
-    </div>
-
-    <div class="container-fluid section2">
-        <div class="row">
-            <div class="col-6">
-                <!-- <img src="alcohol-bar-beverage-989703.jpg" alt=""> -->
-                <!-- carousal qoutes -->
-                <div id="carousalSlider" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active" data-interval="3000">
-                            <img src="alcohol-bar-beverage-989703.jpg" alt="">
-                        </div>
-                        <div class="carousel-item" data-interval="3000">
-                            <img src="alcohol-bar-beverage-989703.jpg" alt="">
-                        </div>
-                        <div class="carousel-item" data-interval="3000">
-                            <img src="alcohol-bar-beverage-989703.jpg" alt="">
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <div class="col-6">
-                <!-- <img src="appetizer-dark-delicious-326279.jpg" alt=""> -->
-                <!-- carousal qoutes -->
-                <div id="carousalSlider" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active" data-interval="3000">
-                            <img src="appetizer-breakfast-cuisine-326278.jpg" alt="">
-                        </div>
-                        <div class="carousel-item" data-interval="3000">
-                            <img src="appetizer-breakfast-cuisine-326278.jpg" alt="">
-                        </div>
-                        <div class="carousel-item" data-interval="3000">
-                            <img src="appetizer-breakfast-cuisine-326278.jpg" alt="">
-                        </div>
-                    </div>
-
-                </div>
-                <!-- <img src="appetizer-dark-delicious-326279.jpg" alt=""> -->
-                <!-- carousal qoutes -->
-                <div id="carousalSlider" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active" data-interval="3000">
-                            <img src="appetizer-breakfast-cuisine-326278.jpg" alt="">
-                        </div>
-                        <div class="carousel-item" data-interval="3000">
-                            <img src="appetizer-breakfast-cuisine-326278.jpg" alt="">
-                        </div>
-                        <div class="carousel-item" data-interval="3000">
-                            <img src="appetizer-breakfast-cuisine-326278.jpg" alt="">
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="menu" id="menu">
-        <h1>Our Menu</h1>
-        <nav>
-            <div class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                <a class="nav-item nav-link active" id="nav-burger-tab" data-toggle="tab" href="#nav-burger" role="tab"
-                    aria-controls="nav-burger" aria-selected="true">Burger</a>
-                <a class="nav-item nav-link" id="nav-toasts-tab" data-toggle="tab" href="#nav-toasts" role="tab"
-                    aria-controls="nav-toasts" aria-selected="false">toasts</a>
-                <a class="nav-item nav-link" id="nav-pizzas-tab" data-toggle="tab" href="#nav-pizzas" role="tab"
-                    aria-controls="nav-pizzas" aria-selected="false">pizzas</a>
-                <a class="nav-item nav-link" id="nav-salads-tab" data-toggle="tab" href="#nav-salads" role="tab"
-                    aria-controls="nav-salads" aria-selected="false">salads</a>
-                <a class="nav-item nav-link" id="nav-drinks-tab" data-toggle="tab" href="#nav-drinks" role="tab"
-                    aria-controls="nav-drinks" aria-selected="false">drinks</a>
-                <a class="nav-item nav-link" id="nav-dessrets-tab" data-toggle="tab" href="#nav-dessrets" role="tab"
-                    aria-controls="nav-dessrets" aria-selected="false">dessrets</a>
-            </div>
-        </nav>
-        <div class="tab-content" id="nav-tabContent">
-            <div class="tab-pane fade show active" id="nav-burger" role="tabpanel" aria-labelledby="nav-burger-tab">
-                Burger
-            </div>
-            <div class="tab-pane fade" id="nav-toasts" role="tabpanel" aria-labelledby="nav-toasts-tab">
-                toasts
-            </div>
-            <div class="tab-pane fade" id="nav-pizzas" role="tabpanel" aria-labelledby="nav-pizzas-tab">
-                pizzas
-            </div>
-            <div class="tab-pane fade" id="nav-salads" role="tabpanel" aria-labelledby="nav-salads-tab">
-                salads
-            </div>
-            <div class="tab-pane fade" id="nav-drinks" role="tabpanel" aria-labelledby="nav-drinks-tab">
-                drinks
-            </div>
-            <div class="tab-pane fade" id="nav-dessrets" role="tabpanel" aria-labelledby="nav-dessrets-tab">
-                dessrets
-            </div>
-        </div>
-
-    </div>
-
-    <div class="banner">
-
-    </div>
-
-    <div class="section3">
-        <div class="container">
+    <!-- display section -->
+    <div class="section2">
+        <div class="section2-content container">
             <div class="row">
-                <div class="col-6 col-md-3">
-                    <i class="far fa-clock fa-3x"></i><br><br>
-                    <h5>On time order</h5>
-                    <h6>Everything you order will be serve fast to you</h6>
+                <div class="col-sm-4">
+                    <img src="images/LogoMakr_0OSM6z.png" alt="" class="img-fluid">
+                    <h3>Desserts</h3>
+                    <p>Delicious desserts: cupcakes, caked, scones and muffins.</p>
                 </div>
-                <div class="col-6 col-md-3">
-                    <i class="fas fa-utensils fa-3x"></i><br><br>
-                    <h5>fresh food</h5>
-                    <h6>Everything you order will be serve fast to you</h6>
+                <div class="col-sm-4">
+                    <img src="images/LogoMakr_34tDrx.png" alt="" class="img-fluid">
+                    <h3>Pastry</h3>
+                    <p>Assorted selection of exquisite freshly baked pastries.</p>
                 </div>
-                <div class="col-6 col-md-3">
-                    <i class="fas fa-bread-slice fa-3x"></i><br><br>
-                    <h5>experienced chefs</h5>
-                    <h6>Everything you order will be serve fast to you</h6>
-                </div>
-                <div class="col-6 col-md-3">
-                    <i class="fas fa-concierge-bell fa-3x"></i><br><br>
-                    <h5>varity of dishes</h5>
-                    <h6>Everything you order will be serve fast to you</h6>
+                <div class="col-sm-4">
+                    <img src="images/LogoMakr_0ltCJV.png" alt="" class="img-fluid">
+                    <h3>Coffee</h3>
+                    <p>We have the best selection of freshly ground coffees.</p>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="offerSection">
-        <!-- carousal qoutes -->
-        <div id="carousalSlider" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carousalSlider" data-slide-to="0" class="active"></li>
-                <li data-target="#carousalSlider" data-slide-to="1"></li>
-                <li data-target="#carousalSlider" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="bread-color-copyspace-1565982.jpg" alt="">
+    <!-- Menu Section -->
+    <div class="section3" id="menu">
+        <div class="section3-content container">
+            <h3>Menu<br><img src="images/LogoMakr_1GLHxS.png" alt=""></h3>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="menu">
+                        <h1>Dessert</h1>
+                        <h2>CUPCAKES <span>$2.99</span></h2>
+                        <p>cupcakes, cupcakes, cupcakes, cupcakes, cupcakes, cupcakes, </p>
+                        <h2>CUPCAKES <span>$2.99</span></h2>
+                        <p>cupcakes, cupcakes, cupcakes, cupcakes, cupcakes, cupcakes, </p>
+                        <h2>CUPCAKES <span>$2.99</span></h2>
+                        <p>cupcakes, cupcakes, cupcakes, cupcakes, cupcakes, cupcakes, </p>
+                        <h2>CUPCAKES <span>$2.99</span></h2>
+                        <p>cupcakes, cupcakes, cupcakes, cupcakes, cupcakes, cupcakes, </p>
+                        <h2>CUPCAKES <span>$2.99</span></h2>
+                        <p>cupcakes, cupcakes, cupcakes, cupcakes, cupcakes, cupcakes, </p>
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="bread-color-copyspace-1565982.jpg" alt="">
+                <div class="col-sm-6">
+                    <div class="menu">
+                        <h1>Pastry</h1>
+                        <h2>CUPCAKES <span>$2.99</span></h2>
+                        <p>cupcakes, cupcakes, cupcakes</p>
+                        <h2>CUPCAKES <span>$2.99</span></h2>
+                        <p>cupcakes, cupcakes, cupcakes</p>
+                        <h2>CUPCAKES <span>$2.99</span></h2>
+                        <p>cupcakes, cupcakes, cupcakes</p>
+                        <h1>Coffee</h1>
+                        <h2>CUPCAKES <span>$2.99</span></h2><br>
+                        <h2>CUPCAKES <span>$2.99</span></h2><br>
+                        <h2>CUPCAKES <span>$2.99</span></h2><br>
+                    </div>
                 </div>
-                <div class="carousel-item">
-                    <img src="bread-color-copyspace-1565982.jpg" alt="">
+            </div>
+        </div>
+        <img src="images/LogoMakr_8HBNRI.png" alt="" class="bg-logo">
+    </div>
+
+    <!-- about section -->
+    <div class="section4">
+        <div class="section4-content container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h3>About</h3>
+                    <p>Baker and Coffee is a family owned bakery and coffee shop. We only use the best organic
+                        ingredients for our products, accompanied by handpicked coffees. <br><br>Baker and Coffee is a
+                        family owned bakery and coffee shop. We only use the best organic ingredients for our products,
+                        freshly brewed handpicked coffees.</p>
+                    <img src="images/bg-removebg-preview.png" alt="" class="bg-logo">
+                    <img src="images/LogoMakr_2qfUNK.png" alt="" class="sign-logo">
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="displaySection container-fluid">
-        <div class="row">
-            <div class="col-6 col-md-3">
-                <img src="alcohol-bar-beverage-989703.jpg" alt="">
-            </div>
-            <div class="col-6 col-md-3">
-                <img src="alcohol-bar-beverage-989703.jpg" alt="">
-            </div>
-            <div class="col-6 col-md-3">
-                <img src="alcohol-bar-beverage-989703.jpg" alt="">
-            </div>
-            <div class="col-6 col-md-3">
-                <img src="alcohol-bar-beverage-989703.jpg" alt="">
+    <!-- gallery section -->
+    <div class="section5" id="gallery">
+        <img src="images/22793378-removebg-preview.png" alt="" class="bg-logo">
+        <div class="section5-content container">
+            <div class="row">
+                <div class="col-12">
+                    <h3>Gallery</h3>
+                </div>
+                <div class="col-sm-4 col-md-3">
+                    <div class="gallery-links">
+                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist"
+                            aria-orientation="vertical">
+                            <a class="nav-link active" id="v-pills-bakery-tab" data-toggle="pill" href="#v-pills-bakery"
+                                role="tab" aria-controls="v-pills-bakery" aria-selected="true">The Bakery</a>
+                            <a class="nav-link" id="v-pills-pastery-tab" data-toggle="pill" href="#v-pills-pastery"
+                                role="tab" aria-controls="v-pills-pastery" aria-selected="false">Pastery</a>
+                            <a class="nav-link" id="v-pills-dessert-tab" data-toggle="pill" href="#v-pills-dessert"
+                                role="tab" aria-controls="v-pills-dessert" aria-selected="false">Desserts</a>
+                            <a class="nav-link" id="v-pills-coffee-tab" data-toggle="pill" href="#v-pills-coffee"
+                                role="tab" aria-controls="v-pills-coffee" aria-selected="false">Coffee</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-8 col-md-9">
+                    <div class="photos">
+                        <div class="tab-content" id="v-pills-tabContent">
+                            <div class="tab-pane fade show active" id="v-pills-bakery" role="tabpanel"
+                                aria-labelledby="v-pills-bakery-tab">
+                                <div class="album container-fluid">
+                                    <div class="row">
+                                        <div class="col-sm-6 col-md-4">
+                                            <img src="images/album/a-1.jpg" alt="" class="gallery-img image-fluid">
+                                        </div>
+                                        <div class="col-sm-6 col-md-4">
+                                            <img src="images/album/a-2.jpg" alt="" class="gallery-img image-fluid">
+                                        </div>
+                                        <div class="col-sm-6 col-md-4">
+                                            <img src="images/album/a-3.jpg" alt="" class="gallery-img image-fluid">
+                                        </div>
+                                        <div class="col-sm-6 col-md-4">
+                                            <img src="images/album/a-4.jpg" alt="" class="gallery-img image-fluid">
+                                        </div>
+                                        <div class="col-sm-6 col-md-4">
+                                            <img src="images/album/a-5.jpg" alt="" class="gallery-img image-fluid">
+                                        </div>
+                                        <div class="col-sm-6 col-md-4">
+                                            <img src="images/album/a-6.jpg" alt="" class="gallery-img image-fluid">
+                                        </div>
+                                        <div class="col-sm-6 col-md-4">
+                                            <img src="images/album/a-7.jpg" alt="" class="gallery-img image-fluid">
+                                        </div>
+                                        <div class="col-sm-6 col-md-4">
+                                            <img src="images/album/a-8.jpg" alt="" class="gallery-img image-fluid">
+                                        </div>
+                                        <div class="col-sm-6 col-md-4">
+                                            <img src="images/album/a-9.jpg" alt="" class="gallery-img image-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-pastery" role="tabpanel"
+                                aria-labelledby="v-pills-pastery-tab">
+                                <div class="pastry container-fluid">
+                                    <div class="row">
+                                        <div class="col-sm-6 col-md-4">
+                                            <img src="images/pastry/p-1.jpg" alt="" class="gallery-img image-fluid">
+                                        </div>
+                                        <div class="col-sm-6 col-md-4">
+                                            <img src="images/pastry/p-2.jpg" alt="" class="gallery-img image-fluid">
+                                        </div>
+                                        <div class="col-sm-6 col-md-4">
+                                            <img src="images/pastry/p-3.jpg" alt="" class="gallery-img image-fluid">
+                                        </div>
+                                        <div class="col-sm-6 col-md-4">
+                                            <img src="images/pastry/p-4.jpg" alt="" class="gallery-img image-fluid">
+                                        </div>
+                                        <div class="col-sm-6 col-md-4">
+                                            <img src="images/pastry/p-5.jpg" alt="" class="gallery-img image-fluid">
+                                        </div>
+                                        <div class="col-sm-6 col-md-4">
+                                            <img src="images/pastry/p-6.jpg" alt="" class="gallery-img image-fluid">
+                                        </div>
+                                        <div class="col-sm-6 col-md-4">
+                                            <img src="images/pastry/p-7.jpg" alt="" class="gallery-img image-fluid">
+                                        </div>
+                                        <div class="col-sm-6 col-md-4">
+                                            <img src="images/pastry/p-8.jpg" alt="" class="gallery-img image-fluid">
+                                        </div>
+                                        <div class="col-sm-6 col-md-4">
+                                            <img src="images/pastry/p-9.jpg" alt="" class="gallery-img image-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-dessert" role="tabpanel"
+                                aria-labelledby="v-pills-dessert-tab">
+                                <div class="dessert container-fluid">
+                                    <div class="row">
+                                        <div class="col-sm-6 col-md-4">
+                                            <img src="images/desserts/d-1.jpg" alt="" class="gallery-img image-fluid">
+                                        </div>
+                                        <div class="col-sm-6 col-md-4">
+                                            <img src="images/desserts/d-2.jpg" alt="" class="gallery-img image-fluid">
+                                        </div>
+                                        <div class="col-sm-6 col-md-4">
+                                            <img src="images/desserts/d-3.jpg" alt="" class="gallery-img image-fluid">
+                                        </div>
+                                        <div class="col-sm-6 col-md-4">
+                                            <img src="images/desserts/d-4.jpg" alt="" class="gallery-img image-fluid">
+                                        </div>
+                                        <div class="col-sm-6 col-md-4">
+                                            <img src="images/desserts/d-5.jpg" alt="" class="gallery-img image-fluid">
+                                        </div>
+                                        <div class="col-sm-6 col-md-4">
+                                            <img src="images/desserts/d-6.jpg" alt="" class="gallery-img image-fluid">
+                                        </div>
+                                        <div class="col-sm-6 col-md-4">
+                                            <img src="images/desserts/d-7.jpg" alt="" class="gallery-img image-fluid">
+                                        </div>
+                                        <div class="col-sm-6 col-md-4">
+                                            <img src="images/desserts/d-8.jpg" alt="" class="gallery-img image-fluid">
+                                        </div>
+                                        <div class="col-sm-6 col-md-4">
+                                            <img src="images/desserts/d-9.jpg" alt="" class="gallery-img image-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-coffee" role="tabpanel"
+                                aria-labelledby="v-pills-coffee-tab">
+                                <div class="coffee container-fluid">
+                                    <div class="row">
+                                        <div class="col-sm-6 col-md-4">
+                                            <img src="images/coffee/c-1.jpg" alt="" class="gallery-img image-fluid">
+                                        </div>
+                                        <div class="col-sm-6 col-md-4">
+                                            <img src="images/coffee/c-2.jpg" alt="" class="gallery-img image-fluid">
+                                        </div>
+                                        <div class="col-sm-6 col-md-4">
+                                            <img src="images/coffee/c-3.jpg" alt="" class="gallery-img image-fluid">
+                                        </div>
+                                        <div class="col-sm-6 col-md-4">
+                                            <img src="images/coffee/c-4.jpg" alt="" class="gallery-img image-fluid">
+                                        </div>
+                                        <div class="col-sm-6 col-md-4">
+                                            <img src="images/coffee/c-5.jpg" alt="" class="gallery-img image-fluid">
+                                        </div>
+                                        <div class="col-sm-6 col-md-4">
+                                            <img src="images/coffee/c-6.jpg" alt="" class="gallery-img image-fluid">
+                                        </div>
+                                        <div class="col-sm-6 col-md-4">
+                                            <img src="images/coffee/c-7.jpg" alt="" class="gallery-img image-fluid">
+                                        </div>
+                                        <div class="col-sm-6 col-md-4">
+                                            <img src="images/coffee/c-8.jpg" alt="" class="gallery-img image-fluid">
+                                        </div>
+                                        <div class="col-sm-6 col-md-4">
+                                            <img src="images/coffee/c-9.jpg" alt="" class="gallery-img image-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
-    <div class="locationSection">
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.375056988231!2d78.35980611435392!3d17.44175390582698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93ead3dd886b%3A0x9e0da5f012723fa6!2sGachibowli+Central!5e0!3m2!1sen!2sin!4v1558275359978!5m2!1sen!2sin"
-            frameborder="0" style="border:0" allowfullscreen></iframe>
+    <!-- journal section -->
+    <div class="section6" id="journal">
+        <div class="section6-content container">
+            <h3>Journal</h3>
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <img src="images/album/a-3.jpg" alt="" class="journal-img img-fluid">
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <img src="images/pastry/p-5.jpg" alt="" class="journal-img img-fluid">
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <img src="images/album/a-4.jpg" alt="" class="journal-img img-fluid">
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <img src="images/pastry/p-9.jpg" alt="" class="journal-img img-fluid">
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <img src="images/desserts/d-5.jpg" alt="" class="journal-img img-fluid">
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <img src="images/desserts/d-9.jpg" alt="" class="journal-img img-fluid">
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <img src="images/coffee/c-6.jpg" alt="" class="journal-img img-fluid">
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <img src="images/desserts/d-3.jpg" alt="" class="journal-img img-fluid">
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <img src="images/coffee/c-9.jpg" alt="" class="journal-img img-fluid">
+                </div>
+            </div>
+        </div>
     </div>
 
+    <!-- contacts section -->
+    <div class="section7" id="contact">
+        <img src="images/20398401-removebg-preview.png" alt="" class="bg-logo">
+        <div class="section7-content container">
+            <h3>Contacts</h3>
+            <p><i class="fas fa-map-marker-alt"></i> Lorem street 9, Berlin</p>
+            <p><i class="fas fa-phone-square"></i> 9999-999-999</p>
+            <p><i class="fas fa-envelope"></i> bakerandcoffee@mail.com</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.4042753051176!2d78.35972551416569!3d17.440353988046862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93eb3178390f%3A0x2259b0abaed2b868!2sOver%20the%20Moon%20Brew%20Co.!5e0!3m2!1sen!2sin!4v1580586323693!5m2!1sen!2sin"
+                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+    </div>
+
+    <!-- footer section -->
     <div class="footer">
-        <div class="container">
+        <div class="footer-content container">
             <div class="row">
-                <div class="col-md-4">
-                    <h2>QuickFood</h2>
+                <div class="col-sm-4">
+                    <h2>LATEST TWEETS</h2>
+                    <P>New delicious treat in our menu! Check it out at <span class="link">http//bakerandcoffee.net
+                            #bakery #coffee</span><br>
+                        09 December 2020 Crafted Pixels</P>
                 </div>
-                <div class="col-md-4">
-                    <h4>Our Menu</h4>
-                    <a href="#">Burger</a> / <a href="#">Burger</a> / <a href="#">Burger</a><br>
-                    <a href="#">Burger</a> / <a href="#">Burger</a> / <a href="#">Burger</a>
+                <div class="col-sm-4">
+                    <h2>CUSTOM MENU</h2>
+                    <h4><a href="#home">Home</a></h4>
+                    <h4><a href="#menu">Menu</a></h4>
+                    <h4><a href="#gallery">Gallery</a></h4>
+                    <h4><a href="#journal">Journal</a></h4>
+                    <h4><a href="#contact">Contact</a></h4>
                 </div>
-                <div class="col-md-4">
-                    <h4>contact us</h4>
-                    <p><span>Address: </span>Something Address</p>
-                    <p><span>Contact No: </span>+91(9876543210)</p>
+                <div class="col-sm-4">
+                    <h2>OPEN HOURS</h2>
+                    <p>Weekdays 07:00 19:30</p>
+                    <p>weekends 09:00 21:30</p><br><br>
+                    <h2>SOCIAL MEDIA</h2>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-instagram"></i>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="copyrightSection">
-        <div class="copyright">
-            QuickFood &copy; Copyright
-        </div>
-        <div class="icons">
-            <i class="fab fa-facebook-f"></i>
-            <i class="fab fa-google-plus-g"></i>
-            <i class="fab fa-instagram"></i>
-            <i class="fab fa-twitter"></i>
+        <br><br><br><br>
+        <div class="footer-end">
+            <p>&copy;bakerandcoffee-2020</p><a href="#home"><span class="top"><i class="fas fa-angle-up"></i></span></a>
         </div>
     </div>
 
-    <!--Jquery script-->
-    <script src="javascript/jquery-3.3.1.min.js"></script>
-    <script src="javascript/bootstrap.bundle.min.js"></script>
-    <script src="javascript/swiper.min.js"></script>
-    <script src="javascript/javascript.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="javascript.js"></script>
 </body>
 
 </html>
